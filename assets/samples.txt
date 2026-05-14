@@ -1,0 +1,63 @@
+============================================================
+MyFirstLLM v2 生成样例
+日期: 2026-05-14
+模型: 6.6M 参数 char-level GPT (n_layer=6, n_embd=384, block_size=256)
+训练: 5000 iters, batch_size=64, TinyShakespeare (~1MB)
+最终: train_loss=1.13, val_loss=1.48 (perplexity ≈ 4.4)
+============================================================
+
+
+============================================================
+temperature=0.5, top_k=10  (保守)
+============================================================
+ROMEO:
+Sir, I will the man of the fault of him.
+
+ROMEO:
+I am a mother, that they may shall be a signor as it
+as the deserves of the common of the common soldier.
+
+BENVOLIO:
+The gods like a word shall fly to the cause.
+
+ROMEO:
+I have been born and little and dead; now now
+think where is not the dead of the
+
+
+============================================================
+temperature=0.8, top_k=40  (推荐)
+============================================================
+ROMEO:
+And what a bed with me?
+
+ANGELO:
+If thou art a kindness to deep it.
+
+ISABELLA:
+O me! I fear your honour's lady!
+
+ISABELLA:
+They say that she's news a such as you are,
+That would not many are known to hear the souls
+To wait this enemies of the fire
+Of all present in my own days and woman.
+
+DUKE VINC
+
+
+============================================================
+temperature=1.2  (发散)
+============================================================
+ROMEO:
+Sir, so thou like that near me-displusing,
+Rather lead England's drunking: no love thee,
+Than it is land after my sight; thisf thou wast
+Made kill'd a husband hold so lips in gentle door.
+
+JULIET:
+O thinking, I will look my head!
+
+JULIET:
+In thus speak it is our wife's delay,
+To bear 'justice, to f
